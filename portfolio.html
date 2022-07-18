@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Портфолио</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!--header content-->
+    <header class="section borders-header">
+      <div class="container header">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo link"
+            ><span class="web-logo">Web</span>Studio</a
+          >
+          <ul class="navigation list">
+            <li class="navigation-list">
+              <a class="navigation-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-link link current" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-header list">
+          <li class="contacts-header-li">
+            <a class="contact-link link" href="mailto:info@example.com"
+              ><svg class="contact-mail-svg">
+                <use href="./images/icons.svg#icon-mail-icon"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li class="contacts-header-li">
+            <a class="contact-link link" href="tel:+380961111111"
+              ><svg class="contact-tel-svg">
+                <use href="./images/icons.svg#icon-ph-icon"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--main content-->
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Наше портфолио</h1>
+          <!--filter buttons-->
+          <ul class="filter-buttons list">
+            <li class="filter-list">
+              <button type="button" class="filter-button active-filter">
+                Все
+              </button>
+            </li>
+            <li class="filter-list">
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+            <li class="filter-list">
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li class="filter-list">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
+            <li class="filter-list">
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <!--Portfolio list-->
+          <ul class="portfolio-list list">
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="фото веб-сайта на компьютере"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">Технокряк</h3>
+                  <p class="portfolio-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio2.jpg"
+                    alt="дизайн постера к матчу по баскетболу"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="portfolio-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio3.jpg"
+                    alt="логотип приложения"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h3>
+                  <p class="portfolio-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio4.jpg"
+                    alt="логотип проекта"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Проект <span lang="en">Prime</span>
+                  </h3>
+                  <p class="portfolio-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio5.jpg"
+                    alt="логотип приложения"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Проект <span lang="en">Boxes</span>
+                  </h3>
+                  <p class="portfolio-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio6.jpg"
+                    alt="фото веб-сайта на компьютере"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name" lang="en">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="portfolio-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio7.jpg"
+                    alt="фото дизайна книги"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h3>
+                  <p class="portfolio-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio8.jpg"
+                    alt="логотип проекта"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name">
+                    Проект <span lang="en">LAB</span>
+                  </h3>
+                  <p class="portfolio-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-post">
+              <a class="portfolio-link link" href="">
+                <div class="portfolio-img-thumb">
+                  <img
+                    src="./images/portfolio9.jpg"
+                    alt="фото приложения на ноутбуке"
+                    width="370"
+                    height="295"
+                  />
+                  <p class="portfolio-hover-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quibusdam ea, corrupti tempora quod doloremque sunt
+                    reiciendis! Ad mollitia est iusto nemo vero quas, distinctio
+                    at optio non. Aspernatur, praesentium ab.
+                  </p>
+                </div>
+
+                <div class="portfolio-cont">
+                  <h3 class="portfolio-name" lang="en">Growing Business</h3>
+                  <p class="portfolio-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--footer content-->
+    <footer class="footer-background">
+      <div class="container footer-container">
+        <div>
+          <a href="./index.html" class="logo-footer link">
+            <span class="web-logo">Web</span>Studio</a
+          >
+
+          <address class="contacts-footer">
+            <ul class="cont-adress list">
+              <li class="cont-adress-li">
+                <a
+                  class="cont-link-adress link"
+                  href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="cont-link-li">
+                <a
+                  class="cont-link link"
+                  lang="en"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="cont-link-li">
+                <a class="cont-link link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <b class="footer-h2-social-list">присоединяйтесь</b>
+          <ul class="footer-social-list list">
+            <li class="footer-social-link">
+              <a class="footer-social-bg" href=""
+                ><svg class="footer-social-logo">
+                  <use href="./images/icons.svg#icon-inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-link">
+              <a class="footer-social-bg" href=""
+                ><svg class="footer-social-logo">
+                  <use href="./images/icons.svg#icon-tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-link">
+              <a href="" class="footer-social-bg">
+                <svg class="footer-social-logo">
+                  <use href="./images/icons.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-link">
+              <a href="" class="footer-social-bg">
+                <svg class="footer-social-logo">
+                  <use href="./images/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <b class="footer-h2-social-list">Подпишитесь на рассылку</b>
+          <form class="footer-form">
+            <label for="client-email"
+              ><input
+                type="email"
+                name="email"
+                class="footer-input"
+                id="client-email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="footer-button" type="submit">
+              Подписаться
+              <svg class="footer-form-icon">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!---->
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
