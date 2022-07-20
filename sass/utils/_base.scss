@@ -1,0 +1,17 @@
+
+button {
+    user-select: none;
+}
+
+img {
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
