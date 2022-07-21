@@ -1,20 +1,23 @@
-/*basic styles*/
 @import './utils/variables';
-@import './utils/regulars';
-@import './utils/base';
-@import './utils/logo';
 
-/*fixed content*/
-@import './components/header';
-@import './components/footer';
+@import './base/common';
+@import './base/reset';
 
-/*Studio page*/
-@import './components/hero';
-@import './components/about';
-@import './components/work';
-@import './components/team';
-@import './components/clients';
+@import './components/logo.scss';
+@import './components/header-text';
+@import './components/sections';
+@import './components/backdrops';
+@import './components/hiden-components';
 @import './components/modal';
 
-/*Portfolio page*/
-@import './components/portfolio';
+@import './layout/header';
+@import './layout/footer-section';
+
+@import './layout/hero';
+@import './layout/about';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/modal-content';
+
+@import './layout/portfolio';
