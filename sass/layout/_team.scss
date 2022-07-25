@@ -45,21 +45,21 @@
 /*team__teammate-name social links*/
 
 .team__teammate-socials {
-    margin-top: 16px;
-
     display: flex;
     justify-content: space-between;
+
+    margin-top: 16px;
 }
 
 .team__teammate-link {
+    @include centered;
+
+    padding: 12px;
+
     background-color: $hero-text-color;
     color: $main-logo-color;
 
     border-radius: $border-icon-radius;
-
-    @include centered;
-
-    padding: 12px;
 
     transition: background-color  $main-animation,
         color  $main-animation;

@@ -10,16 +10,16 @@
 }
 
 .portfolio__filter-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
+    padding: 6px 22px;
 
     color: $main-text-color;
     border: $main-color;
 
     border-radius: $border-main-radius;
 
-    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 
     transition: background-color  $main-animation,
         color  $main-animation,
@@ -90,18 +90,19 @@
 .portfolio__img-desc {
     position: relative;
     overflow: hidden;
+
     &--hover {
+            position: absolute;
+            top: 0;
+
+            padding: 63px 24px;
+            margin: 0;
+    
             font-size: 18px;
             line-height: 1.56;
     
             color: $hero-text-color;
             background-color: $main-color-hover;
-    
-            padding: 63px 24px;
-            margin: 0;
-    
-            position: absolute;
-            top: 0;
     
             transform: translateY(100%);
             transition: transform $main-animation;

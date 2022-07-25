@@ -1,20 +1,19 @@
-.footer-section {
-    background-color: $footer-color;
-
+.footer {
     padding: 64px 0;
+    background-color: $footer-color;
 }
 
-.footer-section__container {
+.footer__container {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
 
-.footer-section__adress {
+.footer__adress {
     margin-top: 20px;
 }
 
-.footer-section__map-link {
+.footer__map-link {
     margin: 0;
 
     font-style: normal;
@@ -23,11 +22,11 @@
     color: $footer-text-color;
 }
 
-.footer-section__item-link {
+.footer__item-link {
     margin-top: 9px;
 }
 
-.footer-section__link {
+.footer__link {
     font-style: normal;
     line-height: 1.71;
 
@@ -44,7 +43,7 @@
 
 /*Social network links*/
 
-.footer-section__socials-header {
+.footer__socials-header {
     margin: 0;
 
     color: $footer-text-color;
@@ -54,29 +53,28 @@
     text-transform: uppercase;
 }
 
-.footer-section__socials-list {
+.footer__socials-list {
     display: flex;
 
     margin-top: 20px;
 }
 
-.footer-section__socials-item {
+.footer__socials-item {
     margin-right: 10px;
-
 
     &:last-child {
         margin-right: 0px;
     }
 }
 
-.footer-section__socials-link {
-    background-color: #ffffff10;
-
+.footer__socials-link {
     display: flex;
     align-items: center;
 
     padding: 12px 12px;
     border-radius: 50%;
+
+    background-color: #ffffff10;
 
     transition: background-color  $main-animation;
 
@@ -97,7 +95,7 @@
 
 /*footer form*/
 
-.footer-section__submit-text {
+.footer__submit-text {
     display: block;
 
     margin-bottom: 20px;
@@ -109,21 +107,20 @@
     text-transform: uppercase;
 }
 
-.footer-section__form {
+.footer__form {
     display: flex;
 }
 
-.footer-section__form-input {
+.footer__form-input {
+    padding: 15px;
+    margin-right: 12px;
+    width: 358px;
+
     background-color: transparent;
     color: $footer-text-color;
 
     border: 1px solid #ffffff30;
     border-radius: $border-main-radius;
-
-    padding: 15px;
-    margin-right: 12px;
-
-    width: 358px;
 
     transition: border-color  $main-animation;
 
@@ -135,21 +132,20 @@
     }
 }
 
-.footer-section__form-button {
+.footer__form-button {
+    @include centered;
     padding: 0px 30px;
 
     border: none;
     border-radius: $border-main-radius;
 
+    color: $footer-text-color;
+    background-color: $main-color;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-
-    @include centered;
-
-    color: $footer-text-color;
-    background-color: $main-color;
 
     transition: background-color  $main-animation;
 

@@ -18,14 +18,14 @@
 
 .modal__title {
     margin-bottom: 12px;
-    margin-top: 0;
+    margin-top: 0;    
+    
+    color: $main-text-color;
 
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: $main-text-color;
 }
 
 .modal__close {

@@ -120,14 +120,13 @@
     left: 0;
     transform: translateX(50%);
 
-    opacity: 0;
-
     width: 16px;
     height: 15px;
     fill: $main-color;
 
-    transition: opacity $main-animation;
+    opacity: 0;
 
+    transition: opacity $main-animation;
 }
 
 .modal__label-checkbox {
@@ -142,15 +141,16 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
     color: $second-color;
 
     cursor: pointer;
 }
 
 .modal__checkbox-link {
-    text-decoration-line: underline;
-
     margin-left: 0.25rem;
+
+    text-decoration-line: underline;
 
     color: $main-color;
 }
@@ -178,7 +178,6 @@
         box-shadow $main-animation;
 
     cursor: pointer;
-
 
     &:hover,
     &:focus {
